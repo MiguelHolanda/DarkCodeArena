@@ -1,0 +1,31 @@
+const readline = require("readline-sync")
+
+console.log("")
+console.log("________________________________________")
+console.log("")
+console.log("      ~~~ANALISE NUMERICA")
+console.log("")
+console.log("saiba se o número é:")
+console.log(" positivo >0")
+console.log(" negativo <0")
+console.log(" zero     =0")
+console.log("________________________________________")
+console.log("")
+let nun = readline.questionInt("DIGITE O NÚMERO QUE DESEJA ANALISAR:  ")
+console.log("")
+console.log("________________________________________")
+console.log("")
+if(nun>0){
+console.log(`${nun} > 0`)
+console.log("~~~")
+console.log(`${nun} É UM NÚMERO POSITIVO`)
+}else if (nun < 0){
+console.log(`${nun} < 0 `)
+console.log("~~~")
+console.log(`${nun} É UM NUMERO NEGATIVO`)
+} else {
+    console.log(`${nun} = 0`)
+}
+console.log("")
+console.log("________________________________________")
+console.log("")
