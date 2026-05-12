@@ -15,7 +15,7 @@ console.log("~~~~~~")
 console.log("")
 console.log(` COMPRA DE R$${v}`)
 if(v<200){
-}else if(v<500){
+}else if(v<=500){
     console.log("")
 console.log("  DESCONTO DE 10%")
 console.log("~~~")
