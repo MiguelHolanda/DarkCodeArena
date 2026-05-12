@@ -27,7 +27,7 @@ console.log("~~~")
 console.log(`  VOCÊ CONSEGUIU R$${v*0.2} de desconto`)
 }
 if(v<200){
-}else if (v<500){
+}else if (v<=500){
     console.log("")
     console.log(`VALOR FINAL DA COMPRA: R$${v-(v*0.1)}`)
 }else{
