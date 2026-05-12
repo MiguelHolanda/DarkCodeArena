@@ -30,7 +30,7 @@ console.log("________________________________________")
 console.log("")
 console.log("   MEDIA FINAL DA TURMA:")
 let media = turma/al
-console.log(`   ~~~ ${media}`)
+console.log(`   ~~~ ${media.toFixed(2)}`)
 console.log("")
 console.log(` ${acima} alunos estam acima da média`)
 console.log("~~~")
