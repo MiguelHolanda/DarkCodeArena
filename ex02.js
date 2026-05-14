@@ -15,11 +15,11 @@ console.log("")
 console.log("      ~~~RELATORIO")
 console.log("")
 if(nt < 5 ){
-console.log(`O aluno ${al} esta reprovado `)
+console.log(`O(a) aluno(a) ${al} esta reprovado(a) `)
 } else if (nt<7){
-    console.log(`o aluno ${al} esta de recuperação`)
+    console.log(`o(a) aluno(a) ${al} esta de recuperação`)
 }else{
-    console.log(`o aluno ${al} esta aprovado`)
+    console.log(`o(a) aluno(a) ${al} esta aprovado(a)`)
 }
 console.log("")
 console.log("________________________________________")
