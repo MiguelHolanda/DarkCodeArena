@@ -17,7 +17,7 @@ console.log("~~~~")
 console.log("")
 for(let i = 1; i<=al; i++){
     let nt = readline.questionFloat(` nota do  aluno numero Nº${i}:  `)
-    if(nt<5){
+    if(nt>5){
         acima ++
     }else {
         abaixo++
@@ -34,7 +34,7 @@ console.log(`   ~~~ ${media.toFixed(2)}`)
 console.log("")
 console.log(` ${acima} alunos estam acima da média`)
 console.log("~~~")
-console.log(` ${abaixo} estam a baixo da média`)
+console.log(` ${abaixo}  alunos estam a baixo da média`)
 console.log("")
 console.log("________________________________________")
 console.log("")
