@@ -16,7 +16,7 @@ console.log(" DIGITE A NOTA FINAL DOS ALUNOS")
 console.log("~~~~")
 console.log("")
 for(let i = 1; i<=al; i++){
-    let nt = readline.questionFloat(` nota do  aluno numero Nº${i}:  `)
+    let nt = readline.questionFloat(` nota do  aluno numero Nº${i}: `)
     if(nt>5){
         acima ++
     }else {
